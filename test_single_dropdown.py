@@ -17,7 +17,7 @@ def test_single_dropdown(page:Page):
     expect(drop_down).to_have_value("india") #validating dropdown selected value
 
 
-    #drop_down.select_option("uk") ---by value
+    drop_down.select_option("uk") #---by value
     #drop_down.select_option(index=4) ----by index
     page.wait_for_timeout(5000)
 
