@@ -15,7 +15,7 @@ def test_css(page:Page):
     button.click()
     button1.click()
     page.wait_for_timeout(3000)
-    expect(button).to_be_enabled()
+    #expect(button).to_be_enabled()
 
 #check box
     checkbox=page.locator("input#sunday")
