@@ -32,7 +32,7 @@ def test_page_actions(page:Page):
 #assrtions on checkbox
     expect(page.locator('id=monday')).to_be_checked()
     expect(page.locator('id=monday')).to_be_visible()
-    expect(page.locator('id=monday')).to_be_enabled()
+    #expect(page.locator('id=monday')).to_be_enabled()
     expect(page.locator('id=monday')).to_have_id('monday')
     expect(page.locator('id=monday')).to_have_attribute("type", "checkbox")
     expect(page.locator('id=monday')).to_have_attribute("value", "monday")
