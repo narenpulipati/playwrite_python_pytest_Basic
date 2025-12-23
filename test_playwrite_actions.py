@@ -27,8 +27,8 @@ def test_page_actions(page:Page):
     #page.locator('div input[class="form-check-input"][type="checkbox"]').nth(1).check()-- By index nth-of-type / nth-child
     #page.locator('div input[class="form-check-input"][id="monday"]').check()# -- by using css 2 elements
     #page.get_by_text('monday').check()---by id
-    #page.get_by_role('checkbox',name='monday').check()
-    page.get_by_label('Monday').check()
+    page.get_by_role('checkbox',name='monday').check()
+    #page.get_by_label('Monday').check()
 #assrtions on checkbox
     expect(page.locator('id=monday')).to_be_checked()
     expect(page.locator('id=monday')).to_be_visible()
