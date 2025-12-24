@@ -10,7 +10,7 @@ def test_single_dropdown(page:Page):
     expect(drop_down).to_be_visible()
     expect(drop_down).to_be_enabled()
 
-    #page.get_by_label("Country:").click()
+    page.get_by_label("Country:").click()
     #drop_down.select_option("India")#---- without label
 #below code is changed
     drop_down.select_option(label="India") #---by label
