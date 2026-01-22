@@ -1,0 +1,27 @@
+
+ Number of rows:  7
+
+ Number of column:  4
+
+ Printing second row data: 
+
+    Learn Java
+    Mukesh
+    Java
+    500
+  
+['Learn Selenium', 'Amit', 'Selenium', '300']
+
+ Printing All rows data :
+[]
+['Learn Selenium', 'Amit', 'Selenium', '300']
+['Learn Java', 'Mukesh', 'Java', '500']
+['Learn JS', 'Animesh', 'Javascript', '300']
+['Master In Selenium', 'Mukesh', 'Selenium', '3000']
+['Master In Java', 'Amod', 'JAVA', '2000']
+['Master In JS', 'Amit', 'Javascript', '1000']
+
+ Below are the Books Authored by Amit: 
+Amit : Learn Selenium
+Amit : Master In JS
+7100

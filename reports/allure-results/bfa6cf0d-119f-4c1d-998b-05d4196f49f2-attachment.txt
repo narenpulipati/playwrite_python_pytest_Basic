@@ -1,0 +1,12 @@
+Number of elements available on dropdown is : 7
+Cat
+Cheetah
+Deer
+Dog
+Elephant
+Fox
+Giraffe
+Lion
+Rabbit
+Zebra
+List is sorted: 

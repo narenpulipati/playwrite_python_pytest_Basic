@@ -1,8 +1,13 @@
-pytest
-playwright
+pytest~=9.0.2
+playwright~=1.57.0
 pytest-html
 pytest-playwright
 pytest-html
 pytest-xdist
+allure-pytest
 
 
+
+
+
+allure-python-commons~=2.15.3
