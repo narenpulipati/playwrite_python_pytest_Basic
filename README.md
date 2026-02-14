@@ -1,5 +1,5 @@
-# playwrite_python_pytest
-# playwrite_python_pytest
+# playwrite_python_pytest_Basic
+
 
 A minimal Python + Playwright + pytest starter repository.
 
