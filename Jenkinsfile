@@ -6,6 +6,7 @@ pipeline {
     }
 
     environment {
+        PYTHON = "C:\\Users\\taccuser\\AppData\\Local\\Python\\bin\\python.exe"
         VENV_DIR = "venv"
     }
 
@@ -20,8 +21,8 @@ pipeline {
         stage('Setup Python Virtual Environment') {
             steps {
                 bat """
-                    python --version
-                    python -m venv %VENV_DIR%
+                    "%PYTHON%" --version
+                    "%PYTHON%" -m venv %VENV_DIR%
                     call %VENV_DIR%\\Scripts\\activate
                     python -m pip install --upgrade pip
                     pip install -r requirements.txt
@@ -64,14 +65,6 @@ pipeline {
                 reportFiles: 'report.html',
                 reportName: 'Playwright HTML Report'
             ])
-        }
-
-        success {
-            echo 'Tests PASSED'
-        }
-
-        failure {
-            echo 'Tests FAILED'
         }
     }
 }
