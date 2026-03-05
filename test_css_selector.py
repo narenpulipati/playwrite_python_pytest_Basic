@@ -37,4 +37,4 @@ def test_css(page:Page):
 #click on one or two days using nth
     page.locator("label[for *= 'day']").nth(5).click()
     page.locator("label[for *= 'day']").nth(3).click()
-    page.wait_for_timeout(3000)
+    #page.wait_for_timeout(3000)
