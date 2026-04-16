@@ -33,7 +33,7 @@ def test_css_locator(page:Page):
         print(products.nth(product).text_content())
 #Below is the play-write inbuilt
     '''product_names=products.all_text_contents()
-    for i in product_names:
+    
         print(i)'''
 
 
